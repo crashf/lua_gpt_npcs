@@ -1,6 +1,6 @@
 OPENAI_ENABLED = "true"
-path_to_history = "/path/to/GPT_NPCs/"
-PATH_TO_OPENAI_EVENT = "/path/to/GPT_NPCs.py"
+path_to_history = "lua_scripts/GPT_NPCs/"
+PATH_TO_OPENAI_EVENT = "lua_scripts/GPT_NPCs.py"
 temp_target_array = {}
 
 sterilize = {}
