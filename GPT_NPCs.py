@@ -4,7 +4,7 @@ import os, sys
 from openai import OpenAI
 
 # Set up your OpenAI API credentials
-client = OpenAI(api_key = "******APIKEYHERE****") # linux - export OPENAI_API_KEY='key_here'
+client = OpenAI(api_key = os.environ["OPENAI_API_KEY"]) # linux - export OPENAI_API_KEY='key_here'
 
 try:
     character_name = sys.argv[1]
