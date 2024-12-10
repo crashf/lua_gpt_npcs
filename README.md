@@ -12,9 +12,9 @@ Allows players to have conversations with NPCs in World of Warcraft via in-game 
 ## Installation Instructions
 - Clone this repository into your LUA scripts folder
 - In GPT_NPCs.lua, edit the following configuration values:
-- - `path_to_history = "lua_scripts/elunamod-GPT_NPCs/"`
+- - `path_to_history = "lua_scripts/lua_GPT_NPCs/"`
   - Path to where conversation histories are stored. Should be the same as where these .lua and .py files are located.
-- - `PATH_TO_OPENAI_EVENT = "lua_script/elunamod-GPT_NPCs/GPT_NPCs.py"`
+- - `PATH_TO_OPENAI_EVENT = "lua_script/lua_GPT_NPCs/GPT_NPCs.py"`
   - Path to where the python file is stored.
 - Create environment variable, "OPENAI_API_KEY", via your specific system instructions.
 - - Linux users : `export OPENAI_API_KEY='your_api_key'`
