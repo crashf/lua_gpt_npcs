@@ -2,7 +2,6 @@
 Allows players to have conversations with NPCs in World of Warcraft via in-game chat and communication. A player can simply walk up to any NPC, type a chat at it, and will receive results from OpenAI.
 
 ### Current Compatibility
-- [Eluna TrinityCore 3.3.5](https://github.com/ElunaLuaEngine/ElunaTrinityWotlk)
 - [Azerothcore Eluna Module 3.3.5](https://github.com/azerothcore/mod-eluna)
 
 ## Requirements
